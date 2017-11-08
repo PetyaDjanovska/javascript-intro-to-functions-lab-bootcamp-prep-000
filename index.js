@@ -13,3 +13,15 @@ function logShout(string){
 function logWhisper(string){
   console.log(string.toLowerCase())
 }
+
+
+function sayHiToGrandma(string){
+  if (string.match(/^[a-z]*$/)) {
+      return "I can\'t hear you!"
+  } else if (string.match(/^[A-Z]*$/)){
+      return "YES INDEED!"
+  } else {
+      return "I love you, too."
+  }
+  }
+
